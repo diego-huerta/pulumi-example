@@ -1,0 +1,27 @@
+{
+  "name": "@bluenile/pulumi-example",
+  "version": "1.0.0",
+  "files": [
+    "/dist"
+  ],
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "registry": "https://nexus.bluenile.com/repository/npm-internal/"
+  },
+  "devDependencies": {
+    "typescript": "4.2.4",
+    "mocha": "^9.0.0",
+    "ts-node": "^10.0.0",
+    "@types/mocha": "^8.2.2"
+  },
+  "dependencies": {
+    "@bluenile/pulumi-kubernetes-istio": "2.0.8",
+    "@pulumi/gcp": "5.2.0",
+    "@pulumi/kubernetes": "3.1.1",
+    "@pulumi/pulumi": "3.2.1",
+    "execa": "3.4.0",
+    "js-yaml": "3.13.1",
+    "toml": "3.0.0",
+    "uuid": "3.3.3"
+  }
+}
